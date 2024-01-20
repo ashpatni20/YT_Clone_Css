@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Youtube Clone</title>
+</head>
+
+<body>
+
+    <!-- navbar all -->
+    <header class="navContainer">
+        <nav class="header">
+            <div class="headerLeft">
+                <i class="material-icons">menu</i>
+                <img src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc"
+                    alt="youtube_icon">
+            </div>
+            <div class="headerSearch">
+                <form action="">
+                    <input type="text" placeholder="Search" class="inputBox">
+                    <button><i class="material-icons">search</i></button>
+                </form>
+            </div>
+            <div class="headerIcons">
+                <i class="material-icons">search</i>
+                <i class="material-icons">videocam</i>
+                <i class="material-icons">apps</i>
+                <i class="material-icons">notifications</i>
+                <i class="material-icons">account_circle</i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- sidebar Start -->
+    <div class="main">
+        <div class="sidebar">
+            <div class="sidebar_categories">
+                <div class="sidebar_category">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar_categories">
+                <div class="sidebar_category">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </div>
+                <div class="sidebar_category">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="videos">
+            <h1>Recommended</h1>
+            <!-- Video Cards -->
+            <div class="videos_container">
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/YsCeMprm2O0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAJoYiZ7rFT0LSJKpNzPwbGwGx6ew"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/YsCeMprm2O0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAJoYiZ7rFT0LSJKpNzPwbGwGx6ew"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Arijit Singh, Vishal Mishra, Mithoon, and more</h3>
+                            <a href="#">T-series</a>
+                            <span>10M Views * 3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://image.tmdb.org/t/p/original//feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg" alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://image.tmdb.org/t/p/original//feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>The Marvels</h3>
+                            <a href="#">Marvel</a>
+                            <span>100M Views * 3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/oxk3gWznyI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCX6B73_drmdau9-SFJAsGf-EYxfA"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/oxk3gWznyI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCX6B73_drmdau9-SFJAsGf-EYxfA"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Taarak Mehta Ka Ooltah Chashmah | तारक मेहता का उल्टा चश्मा | Episode 849 | 24th
+                                February, 2021</h3>
+                            <a href="#">TMOC</a>
+                            <span>100M Views * 3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/OsHjKh9suQo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAfPNbNWpRcUqY-7_9LmjEtTRHCqg"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/OsHjKh9suQo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAfPNbNWpRcUqY-7_9LmjEtTRHCqg"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Bhuvan Bam ने कैसे बनाया अपने नाम का मज़ाक? | The Kapil Sharma Show S2 | Season
+                                Highlights</h3>
+                            <a href="#">Kapil Sharma show</a>
+                            <span>100M Views * 3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/FHlyvCbG5TQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlP3D5-xlO09qC8gOn0_2EW1VY3Q"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/FHlyvCbG5TQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlP3D5-xlO09qC8gOn0_2EW1VY3Q"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to understand pain like pain !</h3>
+                            <a href="#">Naruto</a>
+                            <span>11B Views * 11 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/t8HrZTLRCeU/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDMr6wrCaPuGpV7EEdNoRwKt16zVw"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/t8HrZTLRCeU/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDMr6wrCaPuGpV7EEdNoRwKt16zVw"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Stand UP CLC Abhishek</h3>
+                            <a href="#">Abhishek</a>
+                            <span>10M Views * 11 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/i_5pvt7ag7E/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB7RfV7BYVt4BAQakKsVmbo0P4MdQ"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/i_5pvt7ag7E/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB7RfV7BYVt4BAQakKsVmbo0P4MdQ"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Love Babbar</h3>
+                            <a href="#">Code Help</a>
+                            <span>5M Views * 7 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/u3WUW2qe6ww/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCcDo1AXHS3liw_011V-Ol4qexz1A"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/u3WUW2qe6ww/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCcDo1AXHS3liw_011V-Ol4qexz1A"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Take you forward</h3>
+                            <a href="#">TUF Stiver</a>
+                            <span>15M Views * 7 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/AB57Z9DUREE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBRGOgsdRLfWNH-yJ3n5m-lvaVHzw"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/AB57Z9DUREE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBRGOgsdRLfWNH-yJ3n5m-lvaVHzw"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Ram Rang</h3>
+                            <a href="#">Jai Shree Ram</a>
+                            <span>150M Views * 1 Day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/FkowOdMjvYo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCQzZrveag__nK4z8ADlUCqh0NsDA"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/FkowOdMjvYo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCQzZrveag__nK4z8ADlUCqh0NsDA"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Three JS</h3>
+                            <a href="#">Three JS Build amazing Web</a>
+                            <span>1M Views * 25 Day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/jkEx2chIkh4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDF2bvk706PjU3Qlv0nGXoYczviiw"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/jkEx2chIkh4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDF2bvk706PjU3Qlv0nGXoYczviiw"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>EZ snippet Live</h3>
+                            <a href="#">EZ snippet Live</a>
+                            <span>10M Views * 27 Day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/5Z9oa3gMX5s/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Ac4FgALQBYoCDAgAEAEYXyBlKFEwDw==&rs=AOn4CLBzFtMMiM7I5wx2dRzvBL3lrrOfRQ"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/5Z9oa3gMX5s/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Ac4FgALQBYoCDAgAEAEYXyBlKFEwDw==&rs=AOn4CLBzFtMMiM7I5wx2dRzvBL3lrrOfRQ"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>MITRAZ - Gulaab (Official)</h3>
+                            <a href="#">MITRAZ</a>
+                            <span>7M Views * 9 Month ago</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/YsCeMprm2O0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAJoYiZ7rFT0LSJKpNzPwbGwGx6ew"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/YsCeMprm2O0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAJoYiZ7rFT0LSJKpNzPwbGwGx6ew"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Arijit Singh, Vishal Mishra, Mithoon, and more</h3>
+                            <a href="#">T-series</a>
+                            <span>10M Views * 3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://image.tmdb.org/t/p/original//feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg" alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://image.tmdb.org/t/p/original//feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>The Marvels</h3>
+                            <a href="#">Marvel</a>
+                            <span>100M Views * 3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/oxk3gWznyI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCX6B73_drmdau9-SFJAsGf-EYxfA"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/oxk3gWznyI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCX6B73_drmdau9-SFJAsGf-EYxfA"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Taarak Mehta Ka Ooltah Chashmah | तारक मेहता का उल्टा चश्मा | Episode 849 | 24th
+                                February, 2021</h3>
+                            <a href="#">TMOC</a>
+                            <span>100M Views * 3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/OsHjKh9suQo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAfPNbNWpRcUqY-7_9LmjEtTRHCqg"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/OsHjKh9suQo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAfPNbNWpRcUqY-7_9LmjEtTRHCqg"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Bhuvan Bam ने कैसे बनाया अपने नाम का मज़ाक? | The Kapil Sharma Show S2 | Season
+                                Highlights</h3>
+                            <a href="#">Kapil Sharma show</a>
+                            <span>100M Views * 3 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/FHlyvCbG5TQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlP3D5-xlO09qC8gOn0_2EW1VY3Q"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/FHlyvCbG5TQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlP3D5-xlO09qC8gOn0_2EW1VY3Q"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to understand pain like pain !</h3>
+                            <a href="#">Naruto</a>
+                            <span>11B Views * 11 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/t8HrZTLRCeU/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDMr6wrCaPuGpV7EEdNoRwKt16zVw"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/t8HrZTLRCeU/hqdefault.jpg?sqp=-oaymwEjCOADEI4CSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDMr6wrCaPuGpV7EEdNoRwKt16zVw"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Stand UP CLC Abhishek</h3>
+                            <a href="#">Abhishek</a>
+                            <span>10M Views * 11 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/i_5pvt7ag7E/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB7RfV7BYVt4BAQakKsVmbo0P4MdQ"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/i_5pvt7ag7E/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB7RfV7BYVt4BAQakKsVmbo0P4MdQ"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Love Babbar</h3>
+                            <a href="#">Code Help</a>
+                            <span>5M Views * 7 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/u3WUW2qe6ww/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCcDo1AXHS3liw_011V-Ol4qexz1A"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/u3WUW2qe6ww/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCcDo1AXHS3liw_011V-Ol4qexz1A"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Take you forward</h3>
+                            <a href="#">TUF Stiver</a>
+                            <span>15M Views * 7 Months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/AB57Z9DUREE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBRGOgsdRLfWNH-yJ3n5m-lvaVHzw"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/AB57Z9DUREE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBRGOgsdRLfWNH-yJ3n5m-lvaVHzw"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Ram Rang</h3>
+                            <a href="#">Jai Shree Ram</a>
+                            <span>150M Views * 1 Day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/FkowOdMjvYo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCQzZrveag__nK4z8ADlUCqh0NsDA"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/FkowOdMjvYo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCQzZrveag__nK4z8ADlUCqh0NsDA"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Three JS</h3>
+                            <a href="#">Three JS Build amazing Web</a>
+                            <span>1M Views * 25 Day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/jkEx2chIkh4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDF2bvk706PjU3Qlv0nGXoYczviiw"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/jkEx2chIkh4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDF2bvk706PjU3Qlv0nGXoYczviiw"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>EZ snippet Live</h3>
+                            <a href="#">EZ snippet Live</a>
+                            <span>10M Views * 27 Day ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <div class="video_thumbnail">
+                        <img src="https://i.ytimg.com/vi/5Z9oa3gMX5s/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Ac4FgALQBYoCDAgAEAEYXyBlKFEwDw==&rs=AOn4CLBzFtMMiM7I5wx2dRzvBL3lrrOfRQ"
+                            alt="">
+                    </div>
+                    <div class="video_details">
+                        <div class="author">
+                            <img src="https://i.ytimg.com/vi/5Z9oa3gMX5s/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Ac4FgALQBYoCDAgAEAEYXyBlKFEwDw==&rs=AOn4CLBzFtMMiM7I5wx2dRzvBL3lrrOfRQ"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>MITRAZ - Gulaab (Official)</h3>
+                            <a href="#">MITRAZ</a>
+                            <span>7M Views * 9 Month ago</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- video end -->
+    </div>
+    <!-- main end -->
+</body>
+</body>
+
+</html>
